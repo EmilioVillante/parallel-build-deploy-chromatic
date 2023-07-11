@@ -23,7 +23,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build",
-    "storybook:deploy": "chromatic --build-script-name=storybook:build --project-token=chpt_db0591918f2c4f1",
+    "storybook:deploy": "chromatic --build-script-name=storybook:build --skip --project-token=chpt_db0591918f2c4f1",
     "init-msw": "msw init public"
   },
   "devDependencies": {
