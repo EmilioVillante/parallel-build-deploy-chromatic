@@ -58,7 +58,7 @@ jobs:
         if: steps.yarn-cache.outputs.cache-hit != 'true'
 
       - name: Build storybook
-        run: storybook:build
+        run: yarn storybook:build
 
       - name: Deploy to Chromatic
-        run: storybook:deploy
+        run: yarn storybook:deploy
